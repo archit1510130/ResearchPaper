@@ -1,5 +1,4 @@
 import pandas as pd
-import spacy
 import nltk
 from nltk.corpus import wordnet
 from itertools import product
@@ -56,7 +55,7 @@ for i in s:
     except:
         continue
 
-user_input=["Kidney","layer","food"]
+user_input=["Kidney","layer"]
 final=set()
 
 for i in user_input:
